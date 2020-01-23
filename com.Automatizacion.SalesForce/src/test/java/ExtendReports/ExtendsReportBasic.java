@@ -18,7 +18,7 @@ public class ExtendsReportBasic extends ObjectSeleniumSalesForce {
 
 	public ExtendsReportBasic(WebDriver driver) {
 		super(driver);
-		htmlReporter = new ExtentHtmlReporter("extendReports.html");
+		htmlReporter = new ExtentHtmlReporter("Prueba_Reportes_SalesForce.html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 	}

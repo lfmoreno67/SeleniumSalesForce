@@ -36,7 +36,6 @@ public class ProspectosTest extends ExcelDataProvider{
 	salesforce.visit("https://tigob2b--partial.my.salesforce.com/");
   }
   
-  
   @DataProvider(name = "testDataLogin")
 	public Object[][] getDataLogin() {
 		Object data[][]= testData("Login");
@@ -46,11 +45,11 @@ public class ProspectosTest extends ExcelDataProvider{
   @Test(priority=1, dataProvider="testDataLogin")
   public void Login(String usuario, String clave) throws Exception {
 	  salesforce.iniciarSesion(usuario, clave);
-	  test1.pass("Inicio Sesión");
-	  //test.testResult(test1, "Logueo Correcto");
+	  test1.pass("Inicio Sesión Correcto");
+	  test.testResult(test1, "Logueo Correcto");
 	  salesforce.prospectos();
 	  test1.pass("Hizo clic en el menu prospectos");
-	  //test.testResult(test1, "Menu Prospectos");	  
+	  test.testResult(test1, "Click en el menu prospectos");
 	  test1.log(Status.DEBUG, "This step shows usage of log(status, details)");
   }
   
@@ -66,7 +65,7 @@ public class ProspectosTest extends ExcelDataProvider{
 	 
 	  salesforce.nuevoProspecto(cedula, cliente, ciudad, apellido, correo);
 	  test2.pass("Creo Prospecto");
-	  //test.testResult(test2, "Creacion Correcta");
+	  test.testResult(test2, "Creacion Correcta");
 	  test2.info("Uso General");
   }
   
