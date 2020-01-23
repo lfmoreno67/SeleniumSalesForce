@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33890" started-at="2020-01-23T15:25:43Z" finished-at="2020-01-23T15:26:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33890" started-at="2020-01-23T15:25:43Z" finished-at="2020-01-23T15:26:17Z">
+      <class name="com.Object.Salesforce.ProspectosTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="setup" is-config="true" duration-ms="11735" started-at="2020-01-23T10:25:43Z" finished-at="2020-01-23T10:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="beforeClass" is-config="true" duration-ms="8" started-at="2020-01-23T10:25:55Z" finished-at="2020-01-23T10:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:1, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="Login" duration-ms="15517" started-at="2020-01-23T10:25:56Z" data-provider="testDataLogin" finished-at="2020-01-23T10:26:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[consultor.pruebas@tigo.partial]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tigo2019*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Prospectos(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="Prospectos" duration-ms="4784" started-at="2020-01-23T10:26:12Z" data-provider="testDataProspectos" finished-at="2020-01-23T10:26:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1013613584]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Felipe Moreno]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bogota]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Moreno]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[felipe.moreno@vasslatam.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Prospectos -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="tearDown" is-config="true" duration-ms="458" started-at="2020-01-23T10:26:16Z" finished-at="2020-01-23T10:26:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Object.Salesforce.ProspectosTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
