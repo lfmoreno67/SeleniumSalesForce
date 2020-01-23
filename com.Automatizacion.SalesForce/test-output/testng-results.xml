@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33890" started-at="2020-01-23T15:25:43Z" finished-at="2020-01-23T15:26:17Z">
+  <suite name="Default suite" duration-ms="32603" started-at="2020-01-23T20:49:30Z" finished-at="2020-01-23T20:50:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33890" started-at="2020-01-23T15:25:43Z" finished-at="2020-01-23T15:26:17Z">
+    <test name="Default test" duration-ms="32603" started-at="2020-01-23T20:49:30Z" finished-at="2020-01-23T20:50:03Z">
       <class name="com.Object.Salesforce.ProspectosTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="setup" is-config="true" duration-ms="11735" started-at="2020-01-23T10:25:43Z" finished-at="2020-01-23T10:25:55Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="setup" is-config="true" duration-ms="11659" started-at="2020-01-23T15:49:30Z" finished-at="2020-01-23T15:49:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="beforeClass" is-config="true" duration-ms="8" started-at="2020-01-23T10:25:55Z" finished-at="2020-01-23T10:25:55Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="beforeClass" is-config="true" duration-ms="6" started-at="2020-01-23T15:49:42Z" finished-at="2020-01-23T15:49:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:1, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="Login" duration-ms="15517" started-at="2020-01-23T10:25:56Z" data-provider="testDataLogin" finished-at="2020-01-23T10:26:12Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:1, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="Login" duration-ms="15426" started-at="2020-01-23T15:49:43Z" data-provider="testDataLogin" finished-at="2020-01-23T15:49:58Z">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Prospectos(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="Prospectos" duration-ms="4784" started-at="2020-01-23T10:26:12Z" data-provider="testDataProspectos" finished-at="2020-01-23T10:26:16Z">
+        <test-method status="PASS" signature="Prospectos(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="Prospectos" duration-ms="4110" started-at="2020-01-23T15:49:58Z" data-provider="testDataProspectos" finished-at="2020-01-23T15:50:02Z">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Prospectos -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="tearDown" is-config="true" duration-ms="458" started-at="2020-01-23T10:26:16Z" finished-at="2020-01-23T10:26:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Object.Salesforce.ProspectosTest@51c8530f]" name="tearDown" is-config="true" duration-ms="298" started-at="2020-01-23T15:50:02Z" finished-at="2020-01-23T15:50:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
